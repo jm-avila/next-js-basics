@@ -1,6 +1,7 @@
 import React from "react";
 
-const User = ({ name, age }) => (
+const User = ({ name, age }) => {
+    return (
     <div>
         <h1>{name}</h1>
         <p>Age: {age}</p>
@@ -15,6 +16,6 @@ const User = ({ name, age }) => (
             `}
         </style>
     </div>
-);
+)};
 
 export default User;
